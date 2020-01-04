@@ -45,7 +45,6 @@ if __name__ == '__main__':
     l1, ln = LinkList(), LinkList()
     l1.create_list([1, 2, 3, 4, 5])
     s = Solutions()
-
     ln = s.rotateRight(l1, 2)
     l1.show()
     ln.show()
