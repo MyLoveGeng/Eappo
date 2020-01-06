@@ -25,4 +25,4 @@ class String:
 if __name__ == '__main__':
     string = "adbcabcdbb"
     s = String(string)
-    print(s.process())
+    print(s.process()) 
