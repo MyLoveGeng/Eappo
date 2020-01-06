@@ -23,7 +23,9 @@ def get_guest():
 if __name__ == '__main__':
     c1 = threading.Thread(target=come_guest)
     g1 = threading.Thread(target=get_guest)
+    
     c1.start()
     g1.start()
+    
     c1.join()
     g1.join()
